@@ -1,0 +1,30 @@
+[project]
+name = "setuppy2pyprojecttoml"
+version = "0.1.0"
+description = "CLI tool to migrate from setup.py to pyproject.toml for packaging"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+keywords = ["setup.py", "pyproject.toml"]
+authors = [
+  {email = "himkt@klis.tsukuba.ac.jp"},
+  {name = "himkt"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+dependencies = [
+]
+
+[project.optional-dependencies]
+
+[project.urls]
+homepage = "https://github.com/himkt/setuppy2pyprojecttoml"
+documentation = "https://github.com/himkt/setuppy2pyprojecttoml"
+repository = "https://github.com/himkt/setuppy2pyprojecttoml"
+changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[project.scripts]
+setuppy2pyprojecttoml = "setuppy2pyprojecttoml:main"
