@@ -1,5 +1,8 @@
 # setuppy2pyprojecttoml
 
+[PEP-621](https://peps.python.org/pep-0621/#anything-under-build-system) compliant `pyproject.toml` generator from `setup.py`.
+`setuppy2pyprojecttoml` is the very prototype tool.
+
 ## Installation
 
 ```sh
